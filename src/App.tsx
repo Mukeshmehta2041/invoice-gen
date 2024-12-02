@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import HomePage from "./features/home"
 import { AboutPage } from "./features/about"
-import ContactPage from "./features/contact"
 import { FeaturesPage } from "./features/features"
 import { CreateInvoicePage } from "./features/create-invoice"
 
@@ -11,7 +10,6 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/contact" element={<ContactPage />} />
         <Route path="/features" element={<FeaturesPage />} />
         <Route path="/create-invoice" element={<CreateInvoicePage />} />
       </Routes>
